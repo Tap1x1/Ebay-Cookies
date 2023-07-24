@@ -13,12 +13,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service as ChromeService
 
 name = 'main'
-# item_1 = input("Введите название товара №1 : ")
-# price_1 = input("Введите цену от ...")
-# price_2 = input("Введите цену до ...")
-item_1 = "nike"
-price_1 = "100"
-price_2 = "2000"
+item_1 = input("Введите название товара №1 : ")
+price_1 = input("Введите цену от ...")
+price_2 = input("Введите цену до ...")
+
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 
